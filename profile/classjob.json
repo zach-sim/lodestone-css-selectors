@@ -288,99 +288,155 @@
         }
     },
     "CARPENTER": {
+        "ROOT": {
+            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1)"
+        },
         "LEVEL": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > div:nth-child(2)"
+            "selector": "div:nth-child(2)"
         },
         "UNLOCKSTATE": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > div:nth-child(3)"
+            "selector": "div:nth-child(3)"
         },
         "EXP": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > div:nth-child(4)",
+            "selector": "div:nth-child(4)",
             "regex": "(?P<CurrentEXP>\\S+) \\/ (?P<MaxEXP>\\S+)"
+        },
+        "IS_SPECIALISED": {
+            "selector": ".character__job__name--meister",
+            "presence": true
         }
     },
     "BLACKSMITH": {
+        "ROOT": {
+            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(2)"
+        },
         "LEVEL": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(2) > div:nth-child(2)"
+            "selector": "div:nth-child(2)"
         },
         "UNLOCKSTATE": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(2) > div:nth-child(3)"
+            "selector": "div:nth-child(3)"
         },
         "EXP": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(2) > div:nth-child(4)",
+            "selector": "div:nth-child(4)",
             "regex": "(?P<CurrentEXP>\\S+) \\/ (?P<MaxEXP>\\S+)"
+        },
+        "IS_SPECIALISED": {
+            "selector": ".character__job__name--meister",
+            "presence": true
         }
     },
     "ARMORER": {
+        "ROOT": {
+            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(3)"
+        },
         "LEVEL": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(3) > div:nth-child(2)"
+            "selector": "div:nth-child(2)"
         },
         "UNLOCKSTATE": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(3) > div:nth-child(3)"
+            "selector": "div:nth-child(3)"
         },
         "EXP": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(3) > div:nth-child(4)",
+            "selector": "div:nth-child(4)",
             "regex": "(?P<CurrentEXP>\\S+) \\/ (?P<MaxEXP>\\S+)"
+        },
+        "IS_SPECIALISED": {
+            "selector": ".character__job__name--meister",
+            "presence": true
         }
     },
     "GOLDSMITH": {
+        "ROOT": {
+            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4)"
+        },
         "LEVEL": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > div:nth-child(2)"
+            "selector": "div:nth-child(2)"
         },
         "UNLOCKSTATE": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > div:nth-child(3)"
+            "selector": "div:nth-child(3)"
         },
         "EXP": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(4) > div:nth-child(4)",
+            "selector": "div:nth-child(4)",
             "regex": "(?P<CurrentEXP>\\S+) \\/ (?P<MaxEXP>\\S+)"
+        },
+        "IS_SPECIALISED": {
+            "selector": ".character__job__name--meister",
+            "presence": true
         }
     },
     "LEATHERWORKER": {
+        "ROOT": {
+            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(5)"
+        },
         "LEVEL": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(5) > div:nth-child(2)"
+            "selector": "div:nth-child(2)"
         },
         "UNLOCKSTATE": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(5) > div:nth-child(3)"
+            "selector": "div:nth-child(3)"
         },
         "EXP": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(5) > div:nth-child(4)",
+            "selector": "div:nth-child(4)",
             "regex": "(?P<CurrentEXP>\\S+) \\/ (?P<MaxEXP>\\S+)"
+        },
+        "IS_SPECIALISED": {
+            "selector": ".character__job__name--meister",
+            "presence": true
         }
     },
     "WEAVER": {
+        "ROOT": {
+            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(6)"
+        },
         "LEVEL": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(6) > div:nth-child(2)"
+            "selector": "div:nth-child(2)"
         },
         "UNLOCKSTATE": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(6) > div:nth-child(3)"
+            "selector": "div:nth-child(3)"
         },
         "EXP": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(6) > div:nth-child(4)",
+            "selector": "div:nth-child(4)",
             "regex": "(?P<CurrentEXP>\\S+) \\/ (?P<MaxEXP>\\S+)"
+        },
+        "IS_SPECIALISED": {
+            "selector": ".character__job__name--meister",
+            "presence": true
         }
     },
     "ALCHEMIST": {
+        "ROOT": {
+            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(7)"
+        },
         "LEVEL": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(7) > div:nth-child(2)"
+            "selector": "div:nth-child(2)"
         },
         "UNLOCKSTATE": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(7) > div:nth-child(3)"
+            "selector": "div:nth-child(3)"
         },
         "EXP": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(7) > div:nth-child(4)",
+            "selector": "div:nth-child(4)",
             "regex": "(?P<CurrentEXP>\\S+) \\/ (?P<MaxEXP>\\S+)"
+        },
+        "IS_SPECIALISED": {
+            "selector": ".character__job__name--meister",
+            "presence": true
         }
     },
     "CULINARIAN": {
+        "ROOT": {
+            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(8)"
+        },
         "LEVEL": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(8) > div:nth-child(2)"
+            "selector": "div:nth-child(2)"
         },
         "UNLOCKSTATE": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(8) > div:nth-child(3)"
+            "selector": "div:nth-child(3)"
         },
         "EXP": {
-            "selector": "div.clearfix:nth-child(5) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(8) > div:nth-child(4)",
+            "selector": "div:nth-child(4)",
             "regex": "(?P<CurrentEXP>\\S+) \\/ (?P<MaxEXP>\\S+)"
+        },
+        "IS_SPECIALISED": {
+            "selector": ".character__job__name--meister",
+            "presence": true
         }
     },
     "MINER": {
