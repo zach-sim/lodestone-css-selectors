@@ -1,14 +1,11 @@
 {
     "MOUNTS": {
         "ROOT": {
-            "selector": ".mount__list__item",
+            "selector": ".mount__list_icon",
             "multiple": true
         },
-        "NAME": {
-            "selector": ".mount__name"
-        },
         "ICON": {
-            "selector": ".mount__list__icon__image",
+            "selector": ".character__item_icon__img",
             "attribute": "src"
         }
     },
