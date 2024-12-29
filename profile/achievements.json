@@ -1,10 +1,7 @@
 {
-    "ROOT": {
-        "selector": ".ldst__achievement"
-    },
     "ENTRY": {
         "ROOT": {
-            "selector": ".entry",
+            "selector": ".ldst__achievement .entry",
             "multiple": true
         },
         "NAME": {
@@ -38,8 +35,5 @@
     },
     "ACHIEVEMENT_POINTS": {
         "selector": ".achievement__point"
-    },
-    "ACTIVITY_DESCRIPTION": {
-        "selector": ".entry__activity__txt"
     }
 }
